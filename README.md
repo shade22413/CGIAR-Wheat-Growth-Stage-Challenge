@@ -2,7 +2,7 @@
 
 [Competition Link](https://zindi.africa/competitions/cgiar-wheat-growth-stage-challenge/leaderboard)
 
-The goal of this competition is to predict the wheat growth stage using images. There are 7 growth stages (from 1 to 7). There are 2 types of labels : Expert labels (reliable) and Normal labels (less reliable). To train my model, I only used Expert labeled data.
+The goal of this competition is to predict the wheat growth stage using images. There are 7 growth stages (from 1 to 7). There are 2 types of labels : Expert labels (reliable) and Normal labels (less reliable). The Test set was annotated by experts. So, to train my model, I only used Expert labeled data.
 
 ## Methodology
 ### Model/Architecture
@@ -20,7 +20,7 @@ The goal of this competition is to predict the wheat growth stage using images. 
 - ShiftScaleRotate
 
 ### Training/Inference
-I splitted the dataset into 5-Folds stratified with Growth Stage. For each split, a model was trained. For inference, we make a prediction for each one of the 5 models and then, average them.
+I splitted the dataset into 5-Folds stratified with respect to 'Growth Stage'. For each split, a model was trained. For inference, we make a prediction for each one of the 5 models and then, average them.
 
 ### Setup
 - Download Images.zip and Train.csv from the link above and extract Images.zip in a folder named 'Images'.
