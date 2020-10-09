@@ -20,7 +20,7 @@ The goal of this competition is to predict the wheat growth stage using images. 
 - ShiftScaleRotate
 
 ### Training/Inference
-I splitted the dataset into 5-Folds stratified with respect to 'Growth Stage'. For each split, a model was trained. For inference, we make a prediction for each one of the 5 models and then, average them.
+I splitted the dataset into 5-Folds stratified with respect to 'Growth Stage'. For each split, a model was trained. For inference, we make a prediction using each one of the 5 models and then, we average them.
 
 ### Setup
 - Download Images.zip and Train.csv from the link above and extract Images.zip in a folder named 'Images'.
