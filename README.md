@@ -1,6 +1,6 @@
 # CGIAR-Wheat-Growth-Stage-Challenge
 
-[Competition Link](https://zindi.africa/competitions/cgiar-wheat-growth-stage-challenge/leaderboard)
+[Competition Link](https://zindi.africa/competitions/cgiar-wheat-growth-stage-challenge)
 
 The goal of this competition is to predict the wheat growth stage using images. There are 7 growth stages (from 1 to 7). There are 2 types of labels : Expert labels (reliable) and Normal labels (less reliable). The Test set was annotated by experts. So, to train my model, I only used Expert labeled data.
 
