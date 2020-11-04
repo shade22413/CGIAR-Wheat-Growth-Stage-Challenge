@@ -23,7 +23,7 @@ The goal of this competition is to predict the wheat growth stage using images. 
 I splitted the dataset into 5-Folds stratified with respect to 'Growth Stage'. For each split, a model was trained. For inference, we make a prediction using each one of the 5 models and then, we average them.
 
 ### Packages
-- Pytorch Lightning 0.9.1rc1
+- Pytorch Lightning 0.9.1rc3
 
 ### Setup
 - Download Images.zip and Train.csv from the link above and extract Images.zip in a folder named 'Images'.
